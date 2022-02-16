@@ -1,2 +1,5 @@
 .DS_Store
 *.dSYM
+push_swap_checker-master/
+push_swap_tester-main/
+test.sh

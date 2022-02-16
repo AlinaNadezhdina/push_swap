@@ -6,7 +6,7 @@
 /*   By: wcollen <wcollen@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 14:39:09 by wcollen           #+#    #+#             */
-/*   Updated: 2022/02/15 13:19:31 by wcollen          ###   ########.fr       */
+/*   Updated: 2022/02/16 10:29:46 by wcollen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,7 @@ int	main(int argc, char **argv)
 
 	b = NULL;
 	if (argc == 1)
-	{
-		write(1, "Please, enter arguments\n", 24);
-		return (0);
-	}	
+		return (0);	
 	init_value_struct(&val);
 	parse_args(&argv[1], &a, &val);
 	if (is_list_sorted(a))
