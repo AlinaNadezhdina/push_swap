@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   swap_operations.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wcollen <wcollen@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: wcollen <wcollen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 23:10:36 by wcollen           #+#    #+#             */
-/*   Updated: 2022/02/15 13:44:38 by wcollen          ###   ########.fr       */
+/*   Updated: 2022/02/18 18:49:13 by wcollen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	swap_lst(t_lst **elem)
 	if ((*elem) && (*elem)->next)
 	{
 		tmp = (*elem)->next;
-		(*elem)->next = tmp->next;
+		(*elem)->next = (*elem)->next->next;
 		tmp->next = (*elem);
 		*elem = tmp;
 	}

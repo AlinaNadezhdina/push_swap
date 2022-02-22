@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   reverse_rotate_operations.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wcollen <wcollen@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: wcollen <wcollen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 16:22:59 by wcollen           #+#    #+#             */
-/*   Updated: 2022/02/15 13:25:13 by wcollen          ###   ########.fr       */
+/*   Updated: 2022/02/18 19:05:32 by wcollen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

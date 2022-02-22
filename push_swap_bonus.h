@@ -3,17 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap_bonus.h                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wcollen <wcollen@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: wcollen <wcollen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 11:38:14 by wcollen           #+#    #+#             */
-/*   Updated: 2022/02/15 13:17:46 by wcollen          ###   ########.fr       */
+/*   Updated: 2022/02/18 19:24:49 by wcollen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_BONUS_H
 # define PUSH_SWAP_BONUS_H
 # include "libft/libft.h"
-
 typedef struct s_lst
 {
 	int				number;
