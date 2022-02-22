@@ -6,7 +6,7 @@
 /*   By: wcollen <wcollen@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 22:01:11 by wcollen           #+#    #+#             */
-/*   Updated: 2022/02/16 10:14:24 by wcollen          ###   ########.fr       */
+/*   Updated: 2022/02/22 10:10:06 by wcollen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,8 @@ void	check_is_digit_or_space_or_sign(char *s)
 	int	i;
 
 	i = 0;
+	if (!ft_strlen(s))
+		ft_exit();
 	while (s[i])
 	{
 		if ((s[i] >= '0' && s[i] <= '9') || s[i] == ' '\
